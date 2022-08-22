@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+
+}
+.descuentos{
+width: 100%;
+background: #1CD1B0;
+font-size: 15px;
+color: black;
+
+}
+h3{
+padding: 20px;
+}
+header{
+    position: relative;
+    top: 0%;
+    box-sizing: border-box;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 1px 1px 1px 20px;
+}
+h2{
+    font-size: 40px;
+}
+.heroes{
+margin: 100px 0px 0px 0px;
+}
+.heroesbox{
+    display: inline-block;
+    width: 300PX;
+    background-color: #F3F3F3;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    text-align: center;
+    margin top: 10px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25)
+}
+.topimag{
+    justify-content: center;
+    position:relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    } 
+.face{
+    border-radius: 50%;
+    width: 200px;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+
+}
+p{
+    font-size: 16px;
+}
+button{
+    background-color: #00669F;
+    color: white;
+    padding:10PX 30PX ;
+    margin-top: 20PX;
+    margin-bottom: 30PX;
+}
+footer{
+    background-color: #00669F;
+    padding: 10px;
+    color: white;
+    margin-top: 100px;
+}
