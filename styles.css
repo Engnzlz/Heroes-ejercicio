@@ -6,7 +6,8 @@ margin: 0% auto;
 justify-content: center;
 }
 
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+margin: 0;}
 
 .descuentos{
 width: 100%;
@@ -64,7 +65,6 @@ h2{
     top: 15%;
     left: 20%;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    
 }
 h4{
     margin-top: 40%;
