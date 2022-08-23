@@ -1,21 +1,22 @@
 body{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 display: contents;
 width: 100%;
 margin: 0% auto;
 justify-content: center;
-
-
 }
+
+*{box-sizing: border-box;}
+
 .descuentos{
 width: 100%;
 background: #1CD1B0;
 font-size: 15px;
 color: black;
-
 }
 h3{
 padding: 20px;
+font-weight: 200;
 }
 header{
     position: relative;
@@ -27,11 +28,13 @@ header{
 }
 h2{
     font-size: 40px;
+    font-weight: 800;
 }
 .heroes{
     display:flex;
     gap: 20px;
     justify-content: center;
+    position: relative;
 }
 .heroesbox{
     margin: 100px 0px 0px 0px;
@@ -43,33 +46,36 @@ h2{
     text-align: center;
     margin top: 10px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25)
-    
+}
+.topbox{
+    position: ;
 }
 .topimag{
     justify-content: center;
     position:relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
     width: 100%;
     border-radius: 20px 20px 0 0;
     } 
 .face{
     border-radius: 50%;
     width: 200px;
-    justify-content: center;
-    position: relative;
-    top: -100px;
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 20%;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
 }
 h4{
+    margin-top: 40%;
     font-size: 30px;
     text-align: center;
 
 }
 p{
     font-size: 16px;
+    padding: 20px;
+    text-align: justify;
 }
 button{
     background-color: #00669F;
@@ -78,9 +84,18 @@ button{
     margin-top: 20PX;
     margin-bottom: 30PX;
 }
+
+i{
+    color: red;
+    position: absolute;
+    top: 30PX;
+    left: 30px;
+    font-size: 30PX;
+}
 footer{
     background-color: #00669F;
     padding: 10px;
     color: white;
     margin-top: 100px;
+    text-align: center;
 }
