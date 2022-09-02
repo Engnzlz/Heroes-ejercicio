@@ -1,13 +1,14 @@
+*{box-sizing: border-box;
+    margin: 0;}
+
 body{
 font-family: 'Roboto', sans-serif;
 display: contents;
-width: 100%;
-margin: 0% auto;
 justify-content: center;
+position: relative;
+min-height: 100vh;
+margin-bottom: 0px;
 }
-
-*{box-sizing: border-box;
-margin: 0;}
 
 .descuentos{
 width: 100%;
@@ -29,13 +30,16 @@ header{
 }
 h2{
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 1200;
 }
 .heroes{
     display:flex;
     gap: 20px;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
+    height: 60%;
+    margin-bottom: 40px;
 }
 .heroesbox{
     margin: 100px 0px 0px 0px;
@@ -76,6 +80,8 @@ p{
     font-size: 16px;
     padding: 20px;
     text-align: justify;
+    height: 250px;
+
 }
 button{
     background-color: #00669F;
@@ -93,9 +99,44 @@ i{
     font-size: 30PX;
 }
 footer{
+    align-items: flex-end;
     background-color: #00669F;
-    padding: 10px;
-    color: white;
-    margin-top: 100px;
+    width: 100%;
+    padding-top: 25px;
     text-align: center;
+    margin-bottom: 0px;
+}
+.derechos{
+    display: inline-flex;
+    color: white;
+    font-size: 1.2rem;
+    height: 60px;
+}
+footer img{
+    display:inline-flex;
+    width: 150px;
+    position: absolute;
+    right: 20px;
+}
+
+@media (max-width: 768px)
+{
+    .descuentos{
+    text-align: center;
+    }
+    h2{
+    text-align: center;
+    }
+    .heroes{
+    flex-wrap: wrap;
+    }
+    footer{
+    align-items: flex-end;
+    }
+    .derechos{
+        font-size: 1rem;
+    }
+    footer img{
+        width: 90px;
+    }
 }
