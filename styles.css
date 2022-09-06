@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
 display: contents;
 position: relative;
 min-height: 100vh;
-margin-bottom: 0px;
+height: 100vh;
 }
 .descuentos{
 width: 100%;
@@ -193,9 +193,7 @@ footer{
     background-color: #00669F;
     width: 100%;
     text-align: center;
-    margin-bottom: 1px;
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 0px;
 }
 .derechos{
     display: inline-flex;
@@ -209,10 +207,36 @@ footer img{
     position: absolute;
     right: 20px;
 }
-footer p{
-    align-items:center;
+
+.next{
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10%;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    opacity: 30%;
+}
+.next a{
+    color: white;
+    text-decoration: none;
 }
 
+.next2{
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10%;
+    display: flex;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    opacity: 30%;
+}
+.next2 a{
+    color: white;
+    text-decoration: none;
+}
 @media (max-width: 768px)
 {
     .descuentos{
