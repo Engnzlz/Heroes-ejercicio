@@ -24,46 +24,76 @@
     <a href="">Registrarme</a>
     <a href="">Ingresar</a>
 </nav>
-<Section class="bluebox">
+<form class="bluebox" action="#">
         <h2>Añadí tu super!</h2>
         <p>Agregá tu personaje favorito completando las opciones.</p>
     <div class="formbox">
         <p>*Nombre</p>
-        <input type="text" required>
+        <label for="Username"></label>
+        <input type="text" name="Username" placeholder="" id="Username" required>
     </div>
     <div class="formbox">
         <p>*Especie</p>
-        <select required>
+        <label for="Especie"></label>
+        <select required name="Especie" id="Especie">
         <option value=""></option>
-        <option value="">Masculino</option>
-        <option value="">Femenino</option>
+        <option value="">Criptoniano</option>
+        <option value="">humano</option>
         <option value="">Otro</option>
         </select>
     </div>
     <div class="formbox">
         <p>Fecha</p>
-        <input type="date">
+        <label for="Date"></label>
+        <input type="date" name="Date" id="Date">
     </div>
     <div class="formbox">
         <p>Agregar Foto</p>
-        <input type="file" >
+        <label for="File"></label>
+        <input type="file" name="File" id="File">
     </div>
     <div class="formbox">
-        <textarea placeholder="Descripción">
+        <label for="Mensaje"></label>
+        <textarea name="Mensaje" id="Mensaje">
         </textarea>
     </div>
-    <div class="formbox">
-        <textarea placeholder="Descripción">
-        </textarea>
+    <div class="formbox1">
+    <legend>Poderes</legend>
+
+    <div>
+    <label><input type="checkbox" name="Volar" value="Volar">Volar</label>
     </div>
-    <button type="submit">Añadir</button>
+    
+    <div>
+    <label><input type="checkbox" name="Volar" value="Volar">SuperInteligencia</label>
+    </div>
+    
+    <div>
+    <label><input type="checkbox" name="Volar" value="Volar">Vista de rayo láser</label>
+    </div>
+    
+    <div>
+    <label><input type="checkbox" name="Volar" value="Volar">Vista de rayo láser</label>
+    </div><hr>
 
+<div class="formbox2">
+    <legend>Tipo de personaje</legend>
+    
+    <div>
+    <label><input type="radio" name="Volar" value="Volar">Héroe / Heroina</label>
+    </div>
+    <div>
+    <label><input type="radio" name="Volar" value="Volar">Villano / Villana</label>
+    </div>
+</div></div>
+<button class="boton" type="submit">Añadir</button>
+</form>
 
-</Section>
 
 <footer>
     <p class="derechos"> Todos los derechos reservados a FRONT END 1</p>
     <img class="git" src="Img/Vector.png" alt="">
 </footer>
+
 </body>
 </html>
